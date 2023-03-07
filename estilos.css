@@ -1,0 +1,80 @@
+body
+{
+    font-family: Arial;
+    background: rgb(0, 0, 0);
+}
+
+h5
+{
+    font-size: 22px;
+    width: 100px;
+    height: 25px;
+    margin: 0;
+}
+
+p
+{
+    font-size: 20px;
+    margin: 0;
+}
+
+.caja
+{
+    box-sizing: border-box;
+    border-radius: 16px;
+    width: 495px;
+    height: 86px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#verde
+{
+    background: rgb(197, 240, 197);
+    border: 1px solid rgb(113, 191, 147);
+    border-left: 18px solid rgb(108, 196, 111);
+}
+#verde h5
+{
+    color: rgb(108, 196, 111);
+}
+
+#amarilla
+{
+    background: rgb(239, 245, 123);
+    border: 1px solid rgb(238, 238, 10);
+    border-left: 18px solid rgb(250, 188, 73);
+}
+#amarilla h5
+{
+    color: rgb(250, 188, 73);
+}
+
+#roja
+{
+    background: rgb(238, 144, 144);
+    border: 1px solid rgb(227, 105, 105);
+    border-left: 18px solid red;
+}
+#roja h5
+{
+    color: red;
+}
+
+button
+{
+    background: transparent;
+    border-color: transparent;
+}
+
+.negritas
+{
+    font-weight:bold ;
+    color:rgb(246, 246, 246);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Tarjetas de notificación 1911548</title>
+
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <div class="caja" id="verde">
+            <div>
+                <h5>SUCCESS</h5>
+                <p>You have succesfully completed a challenge</p>
+            </div>
+            
+            <button onclick="cerrarCaja('verde')">X</button>
+        </div>
+       
+        <div class="caja" id="amarilla">
+            <div>
+                <h5>WARNING</h5>
+                <p>We have detected some harmful content here</p>
+            </div>
+            
+            <button onclick="cerrarCaja('amarilla')">X</button>
+        </div>
+        
+        <div class="caja" id="roja">
+            <div>
+                <h5>DANGER</h5>
+                <p>This site may harm your computer</p>
+            </div>
+            
+            <button onclick="cerrarCaja('roja')">X</button>
+        </div>
+
+        <div id="contenido">
+            
+        </div>
+    </body>
+    
+    <script src="script.js"></script>
+
+
+</html>
