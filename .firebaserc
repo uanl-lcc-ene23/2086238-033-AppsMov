@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "miapp-2086238": {
+      "hosting": {
+        "miapp_v2": [
+          "miapp-2086238"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "miapp-2086238"
+  }
+}
